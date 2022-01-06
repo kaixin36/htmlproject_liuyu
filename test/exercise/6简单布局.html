@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单布局</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        header,
+        main,
+        footer {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            height: 200px;
+            background-color: aqua;
+        }
+
+        main {
+            height: 600px;
+            margin: 10px auto;
+        }
+
+        .left-menu1 {
+            float: left;
+            width: 200px;
+            height: 100%;
+            background-color: green;
+        }
+
+        .mid-menu1 {
+            float: left;
+            width: 490px;
+            height: 100%;
+            /* background-color: orange; */
+            margin: 0 10px;
+        }
+        .mid-menu1 .mid-menu11{
+            float: left;;
+            width: 90px;
+            height: 100%;
+            background-color: pink;
+        }
+        .mid-menu1 .mid-menu12{
+            float: left;
+            width: 280px;
+            height: 100%;
+            background: yellowgreen;
+            margin:0 10px;
+        }
+        .mid-menu1 .mid-menu13{
+            float: left;
+            width: 100px;
+            height: 100%;
+            background-color: rebeccapurple;
+        }
+
+
+        .right-menu1 {
+            float: left;
+            width: 190px;
+            height: 100%;
+            background-color: palevioletred;
+        }
+
+        footer {
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="left-menu1"></div>
+        <div class="mid-menu1">
+            <div class="mid-menu11"></div>
+            <div class="mid-menu12">
+            </div>
+            <div class="mid-menu13">
+            </div>
+        </div>
+        <div class="right-menu1"></div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
